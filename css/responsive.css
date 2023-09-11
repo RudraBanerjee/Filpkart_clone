@@ -1,0 +1,58 @@
+@media screen and (max-width:1200px){
+    header{
+        width: max-content;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin: 0;
+        display:flex;
+        justify-content: center;
+    }
+    .logo img{
+        height:10vh;
+        width:100vw;
+        margin: 0;
+        padding: 0vh 23vw 0vh 0vh;
+
+    }
+    .slider{
+        display:flex;
+        justify-content:center;
+        margin:0vh;
+        width:100vw;
+        overflow: auto;
+    }
+    nav ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li{
+        padding: 0vh 3vw 0vh 11vh;
+    }
+    nav ul li a{
+        font-size: medium;
+    }
+    .search{
+        display: flex;
+        justify-content: center;
+    }
+    .search input{
+        height: 5vh;
+        width: 38vw;
+        margin: 0vh 5vh 0vh 16vh;
+    }
+    .card-items{
+        font-size: medium;
+        margin:1vw;
+        align-content:space-around;
+    }
+    .card{
+        padding-left:24vh;
+    }
+    .card-items h2{
+        font-size: medium;
+    }
+}

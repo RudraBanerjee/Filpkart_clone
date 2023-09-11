@@ -1,0 +1,22 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding:1vh;
+    background-color: brown;
+    color: white;
+    border-radius: 6px;
+    cursor:pointer
+}
+.btn:hover{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+.textcenter{
+    text-align: center;
+}
+.my-1{
+    margin: 0.1vh 0px;
+}
